@@ -56,7 +56,7 @@
 }
 
 .hero {
-   background-image: url('/images/hero.jpg');
+   background-image: url('./images/hero.jpg');
    background-size: cover;
    background-position: center;
    height: 100vh;
@@ -147,7 +147,7 @@
 
 .hero2 {
    margin-top: 100px;
-   background-image: url('/images/hero2.jpg');
+   background-image: url('./images/hero2.jpg');
    background-size: cover;
    background-position: center;
    height: 100vh;
@@ -333,7 +333,7 @@ footer {
    padding-top: 100px;
    max-width: 85%;
    margin: 0 auto;
-   background: url('/images/wood.jpg');
+   background: url('./images/wood.jpg');
    background-size: cover;
    background-position: center;
    background-blend-mode: hard-light;

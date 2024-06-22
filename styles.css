@@ -15,6 +15,7 @@ a:hover {
    cursor: pointer;
 }  
 
+
 /* Add a black background color to the top navigation */
 .topnav {
    background-color: #fbfbfb;
@@ -626,7 +627,7 @@ textarea {
    border: 2px solid #353535;
 }
 
-.individual {
+.unpacking, .individual, .assembly {
    display: flex;
    justify-content: center;
    align-items: center;
@@ -639,7 +640,7 @@ textarea {
 
 }
 
-.individual-text {
+.unpacking-text, .assembly-text, .individual-text {
    display: flex;
    justify-content: center;
    align-items: center;
@@ -652,27 +653,27 @@ textarea {
    padding: 2rem;
 }
 
-.individual-text h2 {
+.unpacking h2, .assembly h2, .individual-text h2 {
    font-size: 2.1em;
 
 }
 
-.individual-text h3 {
+.unpacking h3, .assembly h3, .individual-text h3 {
    font-size: 1.3em;
    color: #2c3831;
 }
 
 
-.individual-text p {
+.unpacking-text p, .assembly-text p, .individual-text p {
    font-size: 1em;
    color: #353535;
 }
 
-.individual-img img {
+.unpacking-img img, .assembly-img img, .individual-img img {
    max-width: 40vw;
 }
 
-.individualh2 {
+.unpackingh2, .assemblyh2, .individualh2 {
    display: flex;
    justify-content: center;
    align-items: center;
@@ -682,13 +683,88 @@ textarea {
    color: #353535;
 }
 
-.individualh2 h2 {
+.unpackingh2 h2, .assemblyh2 h2, .individualh2 h2 {
    font-size: 2.5em;
    padding: 35px 50px;
    border: 2px solid #353535;
 }
 
+.unpacking-bottom, .assembly-bottom, .wholehome-bottom {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   flex-direction: column;
+   margin: 100px auto;
+   max-width: 650px;
+   gap: 2rem;
+   font-size: 1.2em;
+   color: #353535;
 
+}
+
+.individual-bottom {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   flex-direction: column;
+   margin: 100px auto;
+   max-width: 650px;
+   gap: 2rem;
+   font-size: 1.2em;
+   color: #353535;
+
+}
+
+.unpacking-bottom {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   flex-direction: column;
+   margin: 100px auto;
+   max-width: 650px;
+   gap: 2rem;
+   font-size: 1.2em;
+   color: #353535;
+
+}
+
+.assembly-bottom {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   flex-direction: column;
+   margin: 100px auto;
+   max-width: 650px;
+   gap: 2rem;
+   font-size: 1.2em;
+   color: #353535;
+
+}
+
+.plates {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: row;
+   flex-wrap: wrap;
+   margin: 20px auto;
+   width: 650px;
+   gap: 2rem;
+   font-size: 1.2em;
+   color: #353535;
+}
+
+.plates p {
+   display: flex;
+   border: 2px solid #97bb8e;
+   padding: .5rem;
+   border-radius: 10px;
+   font-size: .9rem;
+}
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {

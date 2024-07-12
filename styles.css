@@ -937,6 +937,18 @@ textarea {
    height: 700px;
 } 
 
+.banner {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 0 auto;
+   text-align: center;
+   font-size: 2rem;
+   background-color: #72a3b9;
+   padding: 10px;
+   max-width: 1000px;
+}
+
 @media screen and (max-width: 1400px){
    .about-main {
      flex-direction: column;
